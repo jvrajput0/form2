@@ -1,0 +1,1867 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;700;800;900&family=Nanum+Myeongjo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ************* Reset CSS ************** */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ************* Common Class ************** */
+.text-yellow {
+    color: rgb(255 253 81);
+}
+
+.text-white {
+    color: white;
+}
+
+.text-violet {
+    color: rgb(14, 71, 145);
+}
+
+.text-purple {
+    color: purple;
+}
+
+.bg-yellow {
+    background-color: rgb(224, 209, 42);
+}
+
+.bg-blue {
+    background-color: rgb(64, 210, 255);
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-lightblue {
+    background-color: rgb(197, 234, 234);
+}
+
+.bg-violet {
+    background-color: rgb(14, 71, 145);
+}
+
+.bg-lightblack {
+    background-color: rgb(31, 37, 91);
+}
+
+.bg-purple {
+    background-color: purple;
+}
+
+.p-30 {
+    padding: 1vw 2vw;
+}
+
+.m-30 {
+    margin: 1vw 2vw;
+}
+
+.bold300 {
+    font-weight: 300;
+}
+
+.bold400 {
+    font-weight: 400;
+}
+
+.bold500 {
+    font-weight: 500;
+}
+
+.bold600 {
+    font-weight: 600;
+}
+
+.bold700 {
+    font-weight: 700;
+}
+
+.bold800 {
+    font-weight: 800;
+}
+
+.kanit {
+    font-family: 'Kanit', sans-serif;
+}
+
+/* ****************** Main Container ************** */
+#maincontainer {
+    margin: 3px;
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    position: relative;
+}
+
+/* ******************** Top Section ****************** */
+#topsection {
+    padding-bottom: 10vw;
+}
+
+#topsection .uppersection {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
+}
+
+#topsection .uppersection .border {
+
+    border-top: 0.3vw solid yellow;
+    position: absolute;
+    width: 23vw;
+    bottom: 10vw;
+    left: 19vw;
+
+}
+
+#topsection .uppersection .text {
+    width: 50%;
+    font-size: 4vw;
+    line-height: 9vw;
+}
+
+#topsection .uppersection .logo {
+    width: 50%;
+    text-align: end;
+    align-items: start;
+}
+
+#topsection .uppersection .logo img {
+    width: 31vw;
+}
+
+#topsection .uppersection .text p {
+    font-size: 2.4vw;
+    line-height: 3vw;
+}
+
+#topsection .lowersection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#topsection .lowersection .student {
+    width: 16vw;
+    height: 16vw;
+}
+
+#topsection .lowersection .studphoto {
+    border-radius: 50%;
+    width: 16vw;
+    height: 16vw;
+    position: relative;
+}
+
+#topsection .lowersection .studphoto img {
+    width: 14vw;
+    height: 14vw;
+    margin-left: 1.7vw;
+}
+
+#topsection .lowersection .bg-text {
+    position: absolute;
+    top: 4vw;
+    left: 1vw;
+}
+
+#topsection .lowersection .bg-text .marks {
+    font-size: 2vw;
+}
+
+#topsection .lowersection .bg-text .in {
+    font-size: 0.9vw;
+    line-height: 0.4vw;
+}
+
+#topsection .lowersection .bg-text .physics {
+    font-size: 1.1vw;
+}
+
+#topsection .lowersection .bg-text .math {
+    font-size: 1.1vw;
+    line-height: 1vw;
+}
+
+#topsection .lowersection .statename {
+    position: relative;
+    bottom: 5.5vw;
+    padding: 0.3vw 2vw;
+    border-radius: 2vw;
+    font-size: 1.5vw;
+    line-height: 1.5vw;
+    padding-bottom: 0.8vw;
+}
+
+#topsection .lowersection .air_text {
+    text-align: center;
+    position: relative;
+    width: 5vw;
+    border-radius: 1vw;
+    padding: 1.1vw;
+    bottom: 12.5vw;
+    left: 11vw;
+}
+
+#topsection .lowersection .air {
+    font-size: 1.8vw;
+    line-height: 0;
+}
+
+#topsection .lowersection .num {
+    font-size: 4.6vw;
+    line-height: 6vw;
+}
+
+#topsection .lowersection .name {
+    display: flex;
+    max-width: 17vw;
+    justify-content: start;
+    position: relative;
+    bottom: 14.5vw;
+    border-radius: 2vw 0 2vw 2vw;
+}
+
+#topsection .lowersection .name .right {
+    width: 70%;
+    text-align: center;
+}
+
+#topsection .lowersection .name .studname {
+    font-size: 1.2vw;
+}
+
+#topsection .lowersection .name .year {
+    font-size: 1vw;
+}
+
+#topsection .lowersection .name .left {
+    text-align: start;
+    border-left: 1px dashed grey;
+    padding-left: 0.5vw;
+}
+
+#topsection .lowersection .name .num {
+    font-size: 2.1vw;
+    line-height: 2vw;
+}
+
+#topsection .lowersection .name .perc {
+    font-size: 0.8vw;
+    line-height: 1vw;
+}
+
+/* **************** Banner ************************* */
+#main_banner {
+    position: absolute;
+    top: 42vw;
+}
+
+#banner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+    border-radius: 2vw;
+
+}
+
+#banner .leftside {
+    text-align: end;
+}
+
+#banner .leftside .num {
+    font-size: 9vw;
+    line-height: 9vw;
+}
+
+#banner .leftside .sup {
+    font-size: 1.5vw;
+    vertical-align: top;
+}
+
+#banner .leftside .dist {
+    font-size: 1.1vw;
+}
+
+#banner .leftside .still {
+    font-size: 1vw;
+}
+
+#banner .middleside {
+    text-align: center;
+    padding: 0 1vw;
+}
+
+#banner .rightside {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#banner .rightside .topside {
+    display: flex;
+}
+
+#banner .rightside .topside .num1 {
+    font-size: 5vw;
+    line-height: 5vw;
+}
+
+#banner .rightside .middleside {
+    text-align: center;
+}
+
+#banner .middleside .quali {
+    font-size: 2.8vw;
+}
+
+#banner .middleside .jee {
+    font-size: 5vw;
+    line-height: 5vw;
+}
+
+#banner .rightside .topside .bottomnum {
+    font-size: 0.9vw;
+    line-height: 1.3vw;
+}
+
+#banner .rightside .bottomside .include {
+    font-size: 1vw;
+    margin-top: 0.5vw;
+    line-height: 1.3vw;
+}
+
+#banner .rightside .topside .first,
+#banner .rightside .topside .second,
+#banner .rightside .topside .third {
+    border-left: 0.3vw dotted grey;
+    padding: 0 0.6vw;
+}
+
+/* *********** Std section **************** */
+#stdsection {
+    width: 100%;
+    display: flex;
+    padding-top: 8vw;
+}
+
+#stdsection .leftside {
+    width: 75%;
+}
+
+#stdsection .leftside .uppertext {
+    text-align: center;
+    font-size: 2vw;
+}
+
+#stdsection .leftside .flex_student {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#stdsection .leftside .flex_student .student,
+#mhtopper .main_student {
+    width: 13vw;
+    height: 13vw;
+}
+
+#stdsection .leftside .flex_student img,
+#mhtopper .main_student img {
+    width: 13vw;
+    height: 13vw;
+}
+
+#stdsection .leftside .flex_student .stud_name,
+#mhtopper .main_student .stud_name {
+    text-align: center;
+    width: 9vw;
+    border-radius: 1vw 0 0 0;
+    line-height: 1.3vw;
+    padding: 0.4vw;
+    position: relative;
+    bottom: 1vw;
+}
+
+#stdsection .leftside .flex_student .stud_name .name,
+#mhtopper .main_student .stud_name .name {
+    font-size: 1.1vw;
+}
+
+#stdsection .leftside .flex_student .stud_name .year,
+#mhtopper .main_student .stud_name .year {
+    font-size: 0.9vw;
+}
+
+#stdsection .leftside .flex_student .air_rank,
+#mhtopper .main_student .air_rank {
+    position: relative;
+    bottom: 9vw;
+    line-height: 2vw;
+    width: 4.3vw;
+    padding: 0.3vw;
+    border-radius: 1vw 1vw 0 0;
+    left: 8.7vw;
+}
+
+#stdsection .leftside .flex_student .air_rank .air,
+#mhtopper .main_student .air_rank .air {
+    font-size: 1.4vw;
+}
+
+#stdsection .leftside .flex_student .air_rank .num1,
+#mhtopper .main_student .air_rank .num1 {
+    font-size: 2.2vw;
+}
+
+#stdsection .leftside .flex_student .perce,
+#mhtopper .main_student .perce {
+    width: 4.3vw;
+    position: relative;
+    bottom: 9vw;
+    left: 8.7vw;
+    line-height: 1.3vw;
+    padding: 0.4vw;
+    border-radius: 0.2vw;
+}
+
+#stdsection .leftside .flex_student .num,
+#mhtopper .main_student .num {
+    font-size: 1.2vw;
+}
+
+#stdsection .leftside .flex_student .per,
+#mhtopper .main_student .per {
+    font-size: 0.7vw;
+}
+
+#stdsection .leftside .flex_student .toppertag,
+#mhtopper .main_student .toppertag {
+    bottom: 140%;
+}
+
+#stdsection .leftside .flex_student .toppertag,
+#mhtopper .main_student .toppertag {
+    border-radius: 50%;
+    position: relative;
+    width: 5vw;
+    height: 5vw;
+    box-shadow: 0 0 1vw yellow;
+    line-height: 1vw;
+    text-align: center;
+    padding: 1vw 0;
+}
+
+#stdsection .leftside .flex_student .toppertag .num2,
+#mhtopper .main_student .toppertag .num2 {
+    font-size: 1.5vw;
+}
+
+#stdsection .leftside .flex_student .toppertag .in,
+#mhtopper .main_student .toppertag .in {
+    font-size: 0.6vw;
+}
+
+#stdsection .leftside .flex_student .toppertag .sub,
+#mhtopper .main_student .toppertag .sub {
+    font-size: 1vw;
+}
+
+
+#stdsection .grid_student,
+#mhtopper .grid_student {
+    margin: 3vw 0;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    justify-content: space-between;
+    gap: 2vw 0;
+}
+
+#stdsection .grid_student {
+    grid-template-columns: auto auto auto auto auto auto;
+
+}
+
+#mhtopper .grid_student {
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+
+#stdsection .grid_student .student,
+#mhtopper .grid_student .student {
+    width: 11vw;
+    height: 11vw;
+}
+
+#stdsection .leftside .grid_student img,
+#mhtopper .grid_student img {
+    width: 11vw;
+    height: 11vw;
+}
+
+#stdsection .leftside .grid_student .stud_name,
+#mhtopper .grid_student .stud_name {
+    width: 7vw;
+    border-radius: 1vw 0 0 0;
+    line-height: 1vw;
+    padding: 0.3vw;
+    position: relative;
+    bottom: 1vw;
+}
+
+#stdsection .leftside .grid_student .stud_name .name,
+#mhtopper .grid_student .stud_name .name {
+    font-size: 0.87vw;
+}
+
+#stdsection .leftside .grid_student .stud_name .year,
+#mhtopper .grid_student .stud_name .year {
+    font-size: 0.7vw;
+}
+
+#stdsection .leftside .grid_student .air_rank,
+#mhtopper .grid_student .air_rank {
+    position: relative;
+    bottom: 7.8vw;
+    line-height: 1.7vw;
+    width: 3.9vw;
+    padding: 0.3vw;
+    border-radius: 1vw 1vw 0 0;
+    left: 7vw;
+}
+
+#stdsection .leftside .grid_student .air_rank .air,
+#mhtopper .grid_student .air_rank .air {
+    font-size: 1vw;
+}
+
+#stdsection .leftside .grid_student .air_rank .num1,
+#mhtopper .grid_student .air_rank .num1 {
+    font-size: 2vw;
+}
+
+#stdsection .leftside .grid_student .perce,
+#mhtopper .grid_student .perce {
+    width: 4vw;
+    position: relative;
+    bottom: 7.8vw;
+    left: 7vw;
+    line-height: 1vw;
+    padding: 0.4vw;
+    border-radius: 0.2vw;
+}
+
+#stdsection .leftside .grid_student .num,
+#mhtopper .grid_student .num {
+    font-size: 1vw;
+}
+
+#stdsection .leftside .grid_student .per,
+#mhtopper .grid_student .per {
+    font-size: 0.55vw;
+}
+
+#stdsection .leftside .text_left_right {
+    font-size: 1vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 4vw;
+}
+
+#stdsection .rightside {
+    width: 25%;
+    margin-left: 2vw;
+}
+
+#stdsection .rightside .topside {
+    background-color: rgb(250, 246, 215);
+    text-align: center;
+    border-radius: 2vw;
+    padding-bottom: 1vw;
+}
+
+#stdsection .rightside .topside .smalltext {
+    font-size: 1.4vw;
+    padding-top: 1vw;
+}
+
+#stdsection .rightside .topside .maintext {
+    font-size: 2.6vw;
+    line-height: 3vw;
+    padding-bottom: 1vw;
+}
+
+#stdsection .rightside .topside .bottom-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 0 1vw;
+    position: relative;
+}
+
+#stdsection .rightside .topside .left {
+    width: 45%;
+}
+
+#stdsection .rightside .topside .right {
+    width: 46%;
+}
+
+#stdsection .rightside .topside .bottom-flex .left_img {
+    width: 10.9vw;
+    height: 14vw;
+}
+
+#stdsection .rightside .topside .bottom-flex .right_img {
+    width: 12vw;
+    height: 14vw;
+    transform: rotateY(35deg);
+}
+
+#stdsection .rightside .topside .bottom-flex .text_box1 {
+    border-radius: 0 1vw 0 0;
+}
+
+#stdsection .rightside .topside .bottom-flex .text_box2 {
+    border-radius: 1vw 0 0 0;
+}
+
+#stdsection .rightside .topside .bottom-flex .text_box {
+    position: absolute;
+    top: 13vw;
+    width: 10.9vw;
+}
+
+#stdsection .rightside .topside .bottom-flex .name {
+    font-size: 1.3vw;
+}
+
+#stdsection .rightside .topside .bottom-flex .year {
+    font-size: 1.1vw;
+}
+
+#stdsection .rightside .topside .bottom-flex .center {
+    position: absolute;
+    width: 100%;
+}
+
+#stdsection .rightside .topside .bottom-flex .one {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 9vw;
+    position: absolute;
+    left: 8.8vw;
+    top: 2vw;
+}
+
+#stdsection .rightside .topside .bottom-flex .air {
+    position: absolute;
+    left: 10.4vw;
+    font-size: 1.2vw;
+    top: 10.2vw;
+}
+
+#stdsection .rightside .topside .bottom-flex .mit {
+    position: absolute;
+    left: 7.2vw;
+    top: 7vw;
+    line-height: 1vw;
+}
+
+#stdsection .rightside .topside .bottom-flex .iit {
+    position: absolute;
+    left: 12vw;
+    top: 5.8vw;
+    line-height: 1vw;
+    text-align: start;
+}
+
+#stdsection .rightside .topside .bottom-flex .Category {
+    font-size: 0.5vw;
+    line-height: 0.5vw;
+    font-weight: 500;
+    margin-bottom: 0.2vw;
+}
+
+#stdsection .rightside .topside .bottom-flex .num {
+    font-size: 1.3vw;
+}
+
+#stdsection .rightside .topside .bottom-flex .usa {
+    font-size: 0.8vw;
+}
+
+#stdsection .rightside .bottomside .bottom_flex {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 6vw 1vw;
+}
+
+#stdsection .rightside .bottom_flex .scan_text {
+    width: 50%;
+    font-size: 1.4vw;
+}
+
+#stdsection .rightside .bottom_flex img {
+    width: 50%;
+}
+
+
+/* ****************  MH Topper -************** */
+#mhtopper .top_text {
+    font-size: 2.5vw;
+    text-align: center;
+    margin-top: -1vw;
+}
+
+#mhtopper .mian_grid_student {
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+}
+
+#mhtopper .mian_grid_student .btt_text {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 1vw;
+    text-align: start;
+}
+
+
+#admission {
+    border-radius: 4vw 4vw 0 0;
+    width: 100%;
+    height: 14.9vw;
+}
+
+#admission .admission_open {
+    font-size: 3vw;
+    text-align: center;
+    width: 29vw;
+    margin: auto;
+    border-radius: 3vw;
+    position: relative;
+    bottom: 2vw;
+}
+
+#admission .flex {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 1vw; */
+    width: 100%;
+    padding: 1vw 2vw;
+    position: relative;
+    bottom: 2vw;
+}
+
+#admission .flex .class {
+    font-size: 1vw;
+}
+
+#admission .flex .section {
+    position: relative;
+    width: auto;
+    height: 10vw;
+    padding: 0 0.5vw;
+
+}
+
+#admission .flex .num {
+    font-size: 4.5vw;
+    line-height: 4vw;
+    margin-top: -1.3vw;
+}
+
+#admission .flex .th {
+    font-size: 1vw;
+    vertical-align: text-top;
+    letter-spacing: 0;
+}
+
+#admission .flex .boxtext {
+    position: absolute;
+    border-radius: 0.5vw;
+    padding: 0.2vw 1vw;
+    font-size: 0.71vw;
+}
+
+#admission .flex .section1 .boxtext {
+    bottom: 4.8vw;
+    left: 4.9vw;
+    width: 7.6vw;
+}
+
+#admission .flex .dropper {
+    font-size: 0.9vw;
+    text-align: center;
+}
+
+#admission .flex .neet {
+    text-align: center;
+    font-size: 1.3vw;
+}
+
+#admission .flex .neet2 {
+    line-height: 1.2vw;
+}
+
+#admission .flex .for {
+    font-size: 1vw;
+}
+
+#admission .flex .section2_img {
+    width: 9vw;
+    height: 9vw;
+}
+
+#admission .flex .num2 {
+    letter-spacing: -0.3vw;
+}
+
+#admission .flex .section3 .dashed {
+    font-size: 3vw;
+}
+
+#admission .flex .section3 .boxtext {
+    left: 9.9vw;
+    top: 2.7vw;
+}
+
+#admission .flex .section4 .boxtext {
+    left: 5.2vw;
+    top: 2.8vw;
+    width: 9.8vw;
+}
+
+#admission .flex .section4 .num11 {
+    font-size: 1.2vw;
+}
+
+#admission .flex .section4 .boxtext .th {
+    font-size: 0.7vw;
+}
+
+#admission .flex .section5 .boxtext {
+    left: 4.9vw;
+    top: 2.7vw;
+    width: 8.16vw;
+    padding: 0.59vw 1vw;
+}
+
+#admission .flex .intergrated {
+    text-align: center;
+    font-size: 1vw;
+}
+
+#admission .flex .section6 {
+    position: relative;
+    bottom: 2vw;
+    height: 12vw;
+}
+
+#admission .flex .section6 .topside {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#admission .flex .section6 .text {
+    font-size: 1.5vw;
+    line-height: 1.6vw;
+}
+
+#admission .flex .section6 .perc {
+    font-size: 4vw;
+    line-height: 3.5vw;
+}
+
+#admission .flex .section6 .bottomside {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#admission .flex .section6 .qr_text {
+    width: 12vw;
+    height: 10vw;
+    font-size: 1vw;
+}
+
+#admission .flex .section6 .link_text {
+    font-size: 0.8vw;
+
+}
+
+#admission .flex .section6 img {
+    width: 8vw;
+    height: 8vw;
+}
+
+#admission .flex .bdr {
+    border-left: 0.2vw dotted grey;
+}
+
+#location .loc_flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#location .loc_flex .boxes {
+    font-size: 0.8vw;
+}
+
+#location .loc_flex .box1 {
+    width: 20%;
+    position: relative;
+}
+
+#location .loc_flex .nums {
+    line-height: 4vw;
+    font-size: 4vw;
+}
+
+#location .loc_flex .branches {
+    position: absolute;
+    top: 0vw;
+    font-size: 1vw;
+    left: 5vw;
+    line-height: 2vw;
+}
+
+#location .loc_flex .maharashtra {
+    font-size: 2vw;
+}
+
+#location .loc_flex .box2 {
+    width: 20%;
+}
+
+#location .loc_flex .box3 {
+    width: 20%;
+}
+
+#location .loc_flex .box4 {
+    width: 20%;
+}
+
+#location .loc_flex .box5 {
+    width: 20%;
+}
+
+#location .loc_flex .box6 {
+    width: 20%;
+    font-size: 1.2vw;
+    text-align: center;
+    line-height: 1.4vw;
+}
+
+#location .loc_flex .place {
+    font-size: 0.83vw;
+}
+
+#location .loc_flex .info {
+    font-size: 1.1vw;
+}
+
+#location .loc_flex .bdr {
+    border-right: 0.1vw dotted black;
+    margin-right: 1vw;
+}
+
+#location .loc_flex .tbr {
+    border-top: 0.3vw dotted black;
+    margin: 0.5vw 0;
+    width: 15vw;
+}
+
+#location .loc_flex .box6 img {
+    width: 13vw;
+    height: 13vw;
+}
+
+#branches {
+    font-size: 0.95vw;
+    text-align: center;
+}
+
+#sociallink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sociallink .bdr {
+    border-right: 0.2vw solid white;
+    padding-right: 5.2vw;
+}
+
+#sociallink .down_text {
+    font-size: 2vw;
+}
+
+#sociallink .apple_d {
+    width: 8vw;
+
+    height: 3vw;
+}
+
+#sociallink .google_d {
+    width: 8vw;
+    height: 3vw;
+}
+
+#sociallink .toll {
+    font-size: 1.5vw;
+}
+
+#sociallink .num {
+    font-size: 2.3vw;
+    line-height: 3vw;
+}
+
+#sociallink .visit_text {
+    font-size: 1.5vw;
+}
+
+#sociallink .aakash {
+    font-size: 2.5vw;
+    line-height: 3vw;
+}
+
+#sociallink .logo img {
+    width: 7vw;
+    height: 5vw;
+}
+
+
+@media only screen and (max-width: 610px) {
+    #topsection {
+        padding-bottom: 10vw;
+    }
+
+    #topsection .uppersection {
+        flex-direction: column;
+        width: 100%;
+        gap: 5vw;
+    }
+
+    #topsection .uppersection .border {
+        display: none;
+    }
+
+    #topsection .uppersection .text {
+        width: 100%;
+        line-height: 8vw;
+        order: 2;
+        text-align: center;
+    }
+
+    #topsection .uppersection .logo {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        order: 1;
+    }
+
+    #topsection .uppersection .logo img {
+        width: 91vw;
+        height: 47vw;
+    }
+
+    #topsection .lowersection {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 9vw 0;
+    }
+
+    #topsection .lowersection .student {
+        width: 24vw;
+        height: 24vw;
+    }
+
+    #topsection .lowersection .studphoto {
+        width: 24vw;
+        height: 24vw;
+    }
+
+    #topsection .lowersection .studphoto img {
+        width: 22vw;
+        height: 22vw;
+    }
+
+    #topsection .lowersection .bg-text {
+        top: 8vw;
+    }
+
+    #topsection .lowersection .bg-text .marks {
+        font-size: 2.8vw;
+    }
+
+    #topsection .lowersection .bg-text .in {
+        font-size: 1.3vw;
+        line-height: 0.6vw;
+    }
+
+    #topsection .lowersection .bg-text .physics {
+        font-size: 1.6vw;
+    }
+
+    #topsection .lowersection .bg-text .math {
+        font-size: 1.6vw;
+        line-height: 1vw;
+    }
+
+    #topsection .lowersection .statename {
+        bottom: 5.5vw;
+        font-size: 2.5vw;
+        line-height: 2.5vw;
+        border-radius: 3vw;
+    }
+
+    #topsection .lowersection .air_text {
+        width: 7vw;
+        bottom: 14.5vw;
+        left: 17vw;
+    }
+
+    #topsection .lowersection .num {
+        font-size: 6.6vw;
+        line-height: 8vw;
+    }
+
+    #topsection .lowersection .name {
+        max-width: 24vw;
+        bottom: 16vw;
+        border-radius: 3vw 0 3vw 3vw;
+    }
+
+    #topsection .lowersection .name .studname {
+        font-size: 2vw;
+    }
+
+    #topsection .lowersection .name .year {
+        font-size: 1.6vw;
+    }
+
+    #topsection .lowersection .name .num {
+        font-size: 3.5vw;
+        line-height: 4vw;
+    }
+
+    #topsection .lowersection .name .perc {
+        font-size: 1.1vw;
+        line-height: 1vw;
+    }
+
+    #main_banner {
+        position: static;
+    }
+
+    #banner {
+        flex-direction: column;
+        gap: 4vw;
+
+    }
+
+    #banner .leftside {
+        text-align: center;
+    }
+
+    #banner .leftside .num {
+        font-size: 15vw;
+        line-height: 14vw;
+    }
+
+    #banner .leftside .dist {
+        font-size: 2vw;
+    }
+
+    #banner .leftside .still {
+        font-size: 2vw;
+    }
+
+    #banner .rightside {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #banner .rightside .topside .num1 {
+        font-size: 10vw;
+        line-height: 9vw;
+    }
+
+    #banner .middleside .quali {
+        font-size: 4vw;
+        line-height: 5vw;
+    }
+
+    #banner .middleside .jee {
+        font-size: 8vw;
+        line-height: 10vw;
+    }
+
+    #banner .rightside {
+        align-self: center;
+    }
+
+    #banner .rightside .topside .bottomnum {
+        font-size: 1.9vw;
+        line-height: 2.3vw;
+    }
+
+    #banner .rightside .bottomside .include {
+        font-size: 2vw;
+        margin-top: 1vw;
+        line-height: 2.3vw;
+    }
+
+    #banner .rightside .topside .first,
+    #banner .rightside .topside .second,
+    #banner .rightside .topside .third {
+        border-left: 0.3vw dotted grey;
+        border-right: 0.3vw dotted grey;
+        padding: 0 1vw;
+    }
+
+    #stdsection {
+        flex-direction: column;
+        padding-top: 2vw;
+        gap: 3vw;
+    }
+
+    #stdsection .leftside {
+        width: 100%;
+    }
+
+    #stdsection .leftside .uppertext {
+        font-size: 3vw;
+    }
+
+    #stdsection .leftside .flex_student {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    #stdsection .leftside .flex_student .student,
+    #mhtopper .main_student {
+        width: 24vw;
+        height: 30vw;
+    }
+
+    #stdsection .leftside .flex_student img,
+    #mhtopper .main_student img {
+        width: 24vw;
+        height: 24vw;
+    }
+
+    #stdsection .leftside .flex_student .stud_name,
+    #mhtopper .main_student .stud_name {
+        width: 15.5vw;
+        border-radius: 1.3vw 0 0 0;
+        line-height: 1.9vw;
+        bottom: 2vw;
+    }
+
+    #stdsection .leftside .flex_student .stud_name .name,
+    #mhtopper .main_student .stud_name .name {
+        font-size: 1.9vw;
+    }
+
+    #stdsection .leftside .flex_student .stud_name .year,
+    #mhtopper .main_student .stud_name .year {
+        font-size: 0.9vw;
+        font-size: 1.5vw;
+    }
+
+    #stdsection .leftside .flex_student .air_rank,
+    #mhtopper .main_student .air_rank {
+        bottom: 14vw;
+        line-height: 3vw;
+        width: 9vw;
+        left: 15vw;
+        padding: 0.8vw;
+    }
+
+    #stdsection .leftside .flex_student .air_rank .air,
+    #mhtopper .main_student .air_rank .air {
+        font-size: 2vw;
+    }
+
+    #stdsection .leftside .flex_student .air_rank .num1,
+    #mhtopper .main_student .air_rank .num1 {
+        font-size: 4.2vw;
+    }
+
+    #stdsection .leftside .flex_student .perce,
+    #mhtopper .main_student .perce {
+        width: 9vw;
+        bottom: 14.2vw;
+        left: 15vw;
+        line-height: 1.6vw;
+        padding-top: 0.9vw;
+    }
+
+    #stdsection .leftside .flex_student .num,
+    #mhtopper .main_student .num {
+        font-size: 2.4vw;
+    }
+
+    #stdsection .leftside .flex_student .per,
+    #mhtopper .main_student .per {
+        font-size: 1vw;
+    }
+
+    #stdsection .leftside .flex_student .toppertag,
+    #mhtopper .main_student .toppertag {
+        bottom: 32vw;
+    }
+
+    #stdsection .leftside .flex_student .toppertag,
+    #mhtopper .main_student .toppertag {
+        width: 7vw;
+        height: 7vw;
+        line-height: 1.6vw;
+    }
+
+    #stdsection .leftside .flex_student .toppertag .num2,
+    #mhtopper .main_student .toppertag .num2 {
+        font-size: 2.3vw;
+    }
+
+    #stdsection .leftside .flex_student .toppertag .in,
+    #mhtopper .main_student .toppertag .in {
+        font-size: 0.9vw;
+    }
+
+    #stdsection .leftside .flex_student .toppertag .sub,
+    #mhtopper .main_student .toppertag .sub {
+        font-size: 1.3vw;
+    }
+
+    #stdsection .grid_student,
+    #mhtopper .grid_student {
+        justify-content: space-around;
+        gap: 2vw 0;
+    }
+
+    #stdsection .grid_student {
+        grid-template-columns: auto auto auto auto;
+    }
+
+
+    #stdsection .grid_student .student,
+    #mhtopper .grid_student .student {
+        width: 19vw;
+        height: 19vw;
+        position: relative;
+    }
+
+    #stdsection .leftside .grid_student img,
+    #mhtopper .grid_student img {
+        width: 19vw;
+        height: 19vw;
+    }
+
+    #stdsection .leftside .grid_student .stud_name,
+    #mhtopper .grid_student .stud_name {
+        width: 13vw;
+        border-radius: 1vw 0 0 0;
+        line-height: 1.5vw;
+        padding: 0.3vw;
+        position: relative;
+        bottom: 2.2vw;
+    }
+
+    #stdsection .leftside .grid_student .stud_name .name,
+    #mhtopper .grid_student .stud_name .name {
+        font-size: 1.5vw;
+    }
+
+    #stdsection .leftside .grid_student .stud_name .year,
+    #mhtopper .grid_student .stud_name .year {
+        font-size: 1.1vw;
+    }
+
+    #stdsection .leftside .grid_student .air_rank,
+    #mhtopper .grid_student .air_rank {
+        position: absolute;
+        bottom: -0.2vw;
+        line-height: 2.7vw;
+        width: 6.5vw;
+        left: 12.5vw;
+    }
+
+    #stdsection .leftside .grid_student .air_rank .air,
+    #mhtopper .grid_student .air_rank .air {
+        font-size: 1.7vw;
+    }
+
+    #stdsection .leftside .grid_student .air_rank .num1,
+    #mhtopper .grid_student .air_rank .num1 {
+        font-size: 3vw;
+    }
+
+    #stdsection .leftside .grid_student .perce,
+    #mhtopper .grid_student .perce {
+        width: 6.5vw;
+        line-height: 1.45vw;
+        bottom: 5.8vw;
+        left: 12.5vw;
+    }
+
+    #stdsection .leftside .grid_student .num,
+    #mhtopper .grid_student .num {
+        font-size: 1.7vw;
+    }
+
+    #stdsection .leftside .grid_student .per,
+    #mhtopper .grid_student .per {
+        font-size: 0.9vw;
+    }
+
+    #stdsection .leftside .text_left_right {
+        font-size: 2vw;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5vw;
+    }
+
+    #stdsection .rightside {
+        width: 100%;
+        display: flex;
+        margin-left: 0;
+    }
+
+    #stdsection .rightside .topside {
+        width: 50%;
+        padding-bottom: 1vw;
+    }
+
+    #stdsection .rightside .topside .smalltext {
+        font-size: 2.4vw;
+        padding-top: 1vw;
+    }
+
+    #stdsection .rightside .topside .maintext {
+        font-size: 4.6vw;
+        line-height: 4.5vw;
+    }
+
+    #stdsection .rightside .topside .left {
+        width: auto;
+    }
+
+    #stdsection .rightside .topside .right {
+        width: 17.4vw;
+    }
+
+    #stdsection .rightside .topside .bottom-flex .left_img {
+        width: 17vw;
+        height: 20vw;
+    }
+
+    #stdsection .rightside .topside .bottom-flex .right_img {
+        width: 19vw;
+        height: 20vw;
+    }
+
+    #stdsection .rightside .topside .bottom-flex .text_box {
+        top: 18vw;
+        width: 17.3vw;
+    }
+
+    #stdsection .rightside .topside .bottom-flex .name {
+        font-size: 1.8vw;
+    }
+
+    #stdsection .rightside .topside .bottom-flex .year {
+        font-size: 1.4vw;
+    }
+
+    #stdsection .rightside .topside .bottom-flex .one {
+        font-size: 16vw;
+        left: 16.8vw;
+    }
+
+    #stdsection .rightside .topside .bottom-flex .air {
+        left: 19.7vw;
+        font-size: 2.2vw;
+        top: 16.2vw;
+    }
+
+    #stdsection .rightside .topside .bottom-flex .mit {
+        left: 13.6vw;
+        top: 11.3vw;
+        line-height: 1.8vw;
+    }
+
+    #stdsection .rightside .topside .bottom-flex .iit {
+        left: 23vw;
+        top: 9vw;
+        line-height: 1.8vw;
+    }
+
+    #stdsection .rightside .topside .bottom-flex .Category {
+        font-size: 1vw;
+        line-height: 1vw;
+        margin-bottom: 0.3vw;
+    }
+
+    #stdsection .rightside .topside .bottom-flex .num {
+        font-size: 2.5vw;
+    }
+
+    #stdsection .rightside .topside .bottom-flex .usa {
+        font-size: 1.3vw;
+    }
+
+    #stdsection .rightside .bottomside {
+        width: 50%;
+    }
+
+    #stdsection .rightside .bottomside .bottom_flex {
+        justify-content: center;
+        gap: 5vw;
+        width: 100%;
+    }
+
+    #stdsection .rightside .bottom_flex .scan_text {
+        width: 30%;
+        font-size: 2vw;
+    }
+
+    #stdsection .rightside .bottom_flex img {
+        width: 34%;
+    }
+
+
+    #mhtopper .grid_student {
+        grid-template-columns: auto auto auto;
+        margin-top: -1vw;
+    }
+
+    #mhtopper .top_text {
+        font-size: 2.5vw;
+        text-align: center;
+        margin-top: 2vw;
+    }
+
+    #mhtopper .mian_grid_student {
+        align-items: center;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    #mhtopper .mian_grid_student .student_last {
+        grid-column: 2/ 4;
+    }
+
+    #mhtopper .mian_grid_student .btt_text {
+        display: none;
+    }
+
+    #admission {
+        border-radius: 0;
+        width: 100%;
+        height: auto;
+        margin: 5vw 0;
+        padding-bottom: 10vw;
+        border-radius: 2vw;
+    }
+
+    #admission .admission_open {
+        font-size: 4vw;
+        width: 44vw;
+        bottom: 3vw;
+    }
+
+
+    #admission .flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3vw;
+        bottom: 0;
+    }
+
+    #admission .flex .class {
+        font-size: 3vw;
+    }
+
+    #admission .flex .section {
+        height: auto;
+    }
+
+    #admission .flex .num {
+        font-size: 9.5vw;
+        line-height: 7vw;
+        margin-top: -3.3vw;
+    }
+
+    #admission .flex .boxtext {
+        border-radius: 0.5vw;
+        padding: 0.2vw 1vw;
+        font-size: 1.5vw;
+    }
+
+    #admission .flex .section1 .boxtext {
+        bottom: 8.8vw;
+        left: 9.9vw;
+        width: 14.6vw;
+    }
+
+    #admission .flex .dropper {
+        font-size: 1.9vw;
+    }
+
+    #admission .flex .neet {
+        font-size: 3.3vw;
+    }
+
+    #admission .flex .neet2 {
+        line-height: 3.2vw;
+        margin-top: 1vw;
+    }
+
+    #admission .flex .for {
+        font-size: 2vw;
+    }
+
+    #admission .flex .section2_img {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    #admission .flex .num2 {
+        letter-spacing: -0.3vw;
+    }
+
+    #admission .flex .section3 .dashed {
+        font-size: 9vw;
+    }
+
+    #admission .flex .section3 .boxtext {
+        left: 21.5vw;
+        top: 5.7vw;
+    }
+
+    #admission .flex .section4 .boxtext {
+        left: 10.5vw;
+        top: 5.8vw;
+        width: 18.5vw;
+    }
+
+    #admission .flex .section4 .num11 {
+        font-size: 2.2vw;
+    }
+
+    #admission .flex .section4 .boxtext .th {
+        font-size: 1vw;
+    }
+
+    #admission .flex .section5 .boxtext {
+        left: 9.9vw;
+        top: 5.4vw;
+        width: 10.16vw;
+    }
+
+    #admission .flex .intergrated {
+        font-size: 2vw;
+    }
+
+    #admission .flex .section6 {
+        bottom: 2vw;
+        height: 12vw;
+        bottom: 0;
+    }
+
+    #admission .flex .section6 .topside {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #admission .flex .section6 .text {
+        font-size: 2.5vw;
+        line-height: 3vw;
+    }
+
+    #admission .flex .section6 .perc {
+        font-size: 6vw;
+        line-height: 6.5vw;
+    }
+
+    #admission .flex .section6 .qr_text {
+        width: 50%;
+        height: auto;
+        font-size: 1.4vw;
+    }
+
+    #admission .flex .section6 .link_text {
+        font-size: 1vw;
+    }
+
+    #admission .flex .section6 img {
+        width: 50%;
+        width: 11vw;
+        height: 11vw;
+    }
+
+    #admission .flex .bdr {
+        border-left: none;
+    }
+
+
+
+
+
+
+    #location {
+        margin-top: -2vw;
+    }
+
+    #location .loc_flex {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #location .loc_flex .boxes {
+        font-size: 0.8vw;
+    }
+
+    #location .loc_flex .box1 {
+        width: 100%;
+    }
+
+    #location .loc_flex .nums {
+        line-height: 7vw;
+        font-size: 10vw;
+        margin-bottom: 7vw;
+    }
+
+    #location .loc_flex .branches {
+        font-size: 3vw;
+        top: 7vw;
+        left: 40vw;
+        line-height: 4vw;
+    }
+
+    #location .loc_flex .maharashtra {
+        font-size: 4vw;
+    }
+
+    #location .loc_flex .box2 {
+        width: 100%;
+    }
+
+    #location .loc_flex .box3 {
+        width: 100%;
+    }
+
+    #location .loc_flex .box4 {
+        width: 100%;
+    }
+
+    #location .loc_flex .box5 {
+        width: 100%;
+    }
+
+    #location .loc_flex .box6 {
+        font-size: 2.2vw;
+        line-height: 2.4vw;
+        width: 100%;
+    }
+
+    #location .loc_flex .place {
+        font-size: 3vw;
+    }
+
+    #location .loc_flex .info {
+        font-size: 3.1vw;   
+    }
+
+    #location .loc_flex .bdr {
+        border-right: none;
+        margin-right: 0;
+    }
+
+    #location .loc_flex .tbr {
+        margin: 0.5vw 5vw;
+        width: 84vw;
+    }
+
+
+    #location .loc_flex .box6 img {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    #branches {
+    font-size: 1.95vw;
+    }
+
+    #sociallink {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 5vw;
+    }
+
+    #sociallink .bdr {
+        border-right: none;
+        padding-right: 0;
+    }
+
+    #sociallink .down_text {
+        font-size: 6vw;
+    }
+
+    #sociallink .apple_d {
+        width: 33vw;
+        height: 11vw;
+    }
+
+    #sociallink .google_d {
+        width: 33vw;
+        height: 11vw;
+    }
+
+    #sociallink .toll {
+        font-size: 4.5vw;
+    }
+
+    #sociallink .num {
+        font-size: 9.3vw;
+        line-height: 9vw;
+    }
+
+    #sociallink .visit_text {
+        font-size: 4.5vw;
+    }
+
+    #sociallink .aakash {
+        font-size: 9.3vw;
+        line-height: 9vw;
+    }
+
+    #sociallink .logo img {
+        width: 96vw;
+        height: 61vw;
+    }
+    }
+}
